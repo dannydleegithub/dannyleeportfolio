@@ -1,5 +1,5 @@
 
-* {
+* { 
     font-family: "Arial";}
 
     header {
@@ -13,7 +13,8 @@
     nav ul {
       display: flex;
       flex-direction: row;
-      list-style: none;}
+      list-style: none;
+      }
      
     body {
       background-color: rgb(209, 209, 211);
@@ -25,25 +26,20 @@
       border-radius: 4px;
       padding: 5px;
       width: 150px;}
-      
-    .links {
+
+    .button {
       display: flex;
-      justify-content: center;
-      background-color: antiquewhite;
-      text-align: center;
-      color: black;
-      border: 2px solid red;
-      padding: 10px;}
-      
-    .button {display: inline-block;
       padding: 10px 20px;
       background-color: #012c5b;
       color: white;
       text-decoration: none;
-      border-radius: 4px;}
-    .button:hover { background-color: #0056b3;}
+      border-radius: 6px;}
+
+    .button:hover {
+      background-color: #0056b3;}
       
-    .lite {display: flex;
+    .lite {
+      display: flex;
       justify-content: center;
       padding: 10px 20px;
       background-color: #015b36;
@@ -51,23 +47,29 @@
       text-decoration: none;
       border-radius: 4px;}
           
-    .lite:hover { background-color: #5af76c;
+    .lite:hover { 
+      background-color: #5af76c;
       transform: scale=(1.5) }
+
     .box {
       width: flex;
       height: 300px;
       border: 10px solid darkblue;
       padding: 30px;}
+
     .about {
       color: #0000ff;
       background-color: #ffa500;
       height: 500px;}
+
     .work {
       color: white;
       background-color: #0000ff;}
+
     .contact {
       color:black;
       background-color: bisque;}
+
     .resume {
       color: white;
       background-color: #0bbf14;}
